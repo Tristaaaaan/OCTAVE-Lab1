@@ -1,0 +1,13 @@
+clc;
+clf;
+clear all;
+close all;
+x=linspace(1,100,100);
+y1=x.^2.0;
+y2=log(x);
+y3=sin(x);
+y4=log10(x);
+subplot(2,2,1),plot(x,y1),xlabel('x-axis'),ylabel('y-axis'),title('y1=x.^2.0');
+subplot(2,2,2),plot(x,y2),xlabel('x-axis'),ylabel('y-axis'),title('y2=log(x)');
+subplot(2,2,3),plot(x,y3),xlabel('x-axis'),ylabel('y-axis'),title('y3=sin(x)');
+subplot(2,2,4),plot(x,y4),xlabel('x-axis'),ylabel('y-axis'),title('y4=log10(x)');
